@@ -216,6 +216,7 @@
                             <failurePriority>5</failurePriority>
                             <linkXRef>false</linkXRef>
                             <targetJdk>${java.version}</targetJdk>
+                            <printFailingErrors>true</printFailingErrors>
                             <rulesets>
                                 <ruleset>pmd-rules.xml</ruleset>
                             </rulesets>
